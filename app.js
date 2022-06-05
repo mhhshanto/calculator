@@ -15,6 +15,7 @@ function plus(){
   const disp = document.getElementById("display").innerHTML
   const disp2 = document.getElementById("p1").innerHTML
   document.getElementById('display').innerHTML = disp + "+"
+  document.getElementById("bttn").disabled = true;
   // document.getElementById('p1').innerHTML = disp2 + "plus"
 }
 
@@ -22,6 +23,7 @@ function clearee(){
   document.getElementById("display").innerText = "";
   document.getElementById('p1').innerHTML= 0
   document.getElementById('p5').innerHTML = 0
+  document.getElementById("bttn").disabled = false;
 
 }
 
