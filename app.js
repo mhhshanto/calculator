@@ -3,6 +3,9 @@ function onee(){
   document.getElementById('display').innerText = disp + 1;
   var dispp1 =document.getElementById('p1').innerText;
   document.getElementById('p1').innerText = dispp1 + 1;
+  var plo = document.getElementById('pl').innerHTML;
+  document.getElementById('pl').innerText = plo + 1;
+
 }
 function two(){
   var disp = document.getElementById("display").innerHTML
@@ -31,12 +34,13 @@ function five(){
 
 
 function plus(){
+  num1 = document.getElementById('p1').innerHTML.replace(/0/g, "")
   const disp = document.getElementById("display").innerHTML
   const disp2 = document.getElementById("p1").innerHTML
   document.getElementById('display').innerHTML = disp + "+"
 
 
-  num1 = document.getElementById('p1').innerHTML
+  
   num2 = document.getElementById('p2').innerHTML
   num3 = document.getElementById('p3').innerHTML
   num4 = document.getElementById('p4').innerHTML
@@ -52,6 +56,7 @@ function plus(){
 }
 
 function clearee(){
+  window.location.reload();
   document.getElementById("display").innerText = "";
   document.getElementById('p1').innerHTML= 0
   document.getElementById('p2').innerHTML= 0

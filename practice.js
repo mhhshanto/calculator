@@ -1,2 +1,3 @@
-var s = "-12345.50 €".replace(/[^\d]/g, '');
-console.log(s);
+var s = "340008350000"
+var p = s.replace(/0/g, "")
+console.log(p);
