@@ -1,4 +1,0 @@
-stack 
-shanto 
-nayeem
-jhankar
