@@ -99,7 +99,16 @@ function zero(){
    document.getElementById('second-stock').innerHTML += 0;
  }
 }
-
+function decimal(){
+  var fun = document.getElementById('fun-check').innerHTML;
+ if(fun.length == 0 ){
+   document.getElementById('display').innerHTML += ".";
+ }
+ else{
+   document.getElementById('display').innerHTML += ".";
+   document.getElementById('second-stock').innerHTML += ".";
+ }
+}
 function plus(){
   var num1 = document.getElementById('display').innerHTML
   document.getElementById('display').innerHTML += "+"
@@ -112,21 +121,21 @@ function minus(){
   document.getElementById('display').innerHTML += "-"
   document.getElementById('first-stock').innerHTML = num1
   document.getElementById('fun-check').innerHTML = 1
-  document.getElementById("bttn").disabled = true;
+  document.getElementById("minus-button").disabled = true;
 }
 function devided(){
   var num1 = document.getElementById('display').innerHTML
   document.getElementById('display').innerHTML += "÷"
   document.getElementById('first-stock').innerHTML = num1
   document.getElementById('fun-check').innerHTML = 2
-  document.getElementById("bttn").disabled = true;
+  document.getElementById("devide-button").disabled = true;
 }
 function multiply(){
   var num1 = document.getElementById('display').innerHTML
   document.getElementById('display').innerHTML += "*"
   document.getElementById('first-stock').innerHTML = num1
   document.getElementById('fun-check').innerHTML = 3
-  document.getElementById("bttn").disabled = true;
+  document.getElementById("multi-button").disabled = true;
 }
 
 
@@ -152,6 +161,19 @@ function equal(){
   var secondStock = parseFloat(document.getElementById('second-stock').innerHTML)
   document.getElementById('display').innerHTML = firstStock * secondStock
   }
+  var dis = document.getElementById('display').innerHTML;
+  document.getElementById('first-stock').innerHTML = dis
+  document.getElementById('second-stock').innerHTML = ""
+  document.getElementById("multi-button").disabled = false;
+  document.getElementById("bttn").disabled = false;
+  document.getElementById("devide-button").disabled = false;
+  document.getElementById("minus-button").disabled = false;
+  
+}
+function dtl(){
+  const text = document.getElementById('display').innerHTML;
+document.getElementById('display').innerHTML = text.slice(0, -1)
+
 }
 
 function clearee(){
