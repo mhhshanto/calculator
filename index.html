@@ -8,8 +8,9 @@
   <title>Calculator</title>
 </head>
 <body>
-  <h1 style="display:block; margin: 0 auto; text-align: center; color: rgb(126, 52, 223);
-  ">Calculator</h1>
+  <h1 style="font-size: 18px;
+  display:block; margin: 0 auto; text-align: center; color: rgb(126, 52, 223);
+  ">Calculator by Shanto</h1>
   <h1 id="display" style="width: 170px; height: 40px;
   display:block; margin: 0 auto; text-align: center; color: rgb(34, 36, 30); border: 1px solid red;
   "></h1>
@@ -17,24 +18,35 @@
     <button onclick="onee()" class="btn">1</button>
     <button onclick="two()" class="btn">2</button>
     <button onclick="three()" class="btn">3</button>
-    <button onclick="four()" class="btn">4</button>
+  </div>
+    <div class="box">
+      <button onclick="four()" class="btn">4</button>
     <button onclick="five()" class="btn">5</button>
     <button onclick="six()" class="btn">6</button>
-    <button onclick="seven()" class="btn">7</button>
-    <button onclick="eight()" class="btn">8</button>
-    <button onclick="nine()" class="btn">9</button>
-    <button id="bttn" onclick="plus()" class="btn">+</button>
+    </div>
+    <div class="box">
+      <button onclick="seven()" class="btn">7</button>
+      <button onclick="eight()" class="btn">8</button>
+      <button onclick="nine()" class="btn">9</button>
+    </div>
+    <div class="box">
+      <button id="bttn" onclick="plus()" class="btn">+</button>
     <button onclick="zero()" class="btn">0</button>
     <button id="multi-button" onclick="multiply()" class="btn"> * </button>
-    <button id="minus-button" onclick="minus()" class="btn"> - </button>
+    </div>
+    <div class="box">
+      <button id="minus-button" onclick="minus()" class="btn"> - </button>
     <button  onclick="clearee()" class="btn">AC</button>
     <button id="devide-button" onclick="devided()" class="btn"> ÷ </button>
-    <button style="font-size: 15px;" onclick="decimal()" class="btn"> . </button>
+    </div>
+    <div class="box">
+      <button style="font-size: 15px;" onclick="decimal()" class="btn"> . </button>
 
     
     <button onclick="equal()" class="btn"> = </button>
     <button onclick="dtl()" class="btn"> delete </button>
-  </div>
+  
+    </div>
   
   <div style="display: hidden;">
   <p id="first-stock"></p>
