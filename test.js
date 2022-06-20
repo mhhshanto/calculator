@@ -1,2 +1,2 @@
 var decimal = "444.33"
-console.log(parseFloat(decimal));
+console.log(parseFloat(decimal));ipiup
