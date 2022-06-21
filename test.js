@@ -4,5 +4,7 @@ if(na.toLowerCase() == n.toLowerCase()){
   console.log('true');
 }else{
 
+  
 console.log("false");
 }
+console.log();
