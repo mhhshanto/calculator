@@ -82,4 +82,4 @@ function equal(){
 
 
 }
-// fghbthjtr8oiuggiytfuy hrytjgf gyhgg
+// fghbthjtr8oiuggiytfuy hrytjgf gyhg
