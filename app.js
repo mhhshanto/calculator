@@ -52,7 +52,9 @@ function plus(){
   document.getElementById('pl').innerHTML=num1 + num2 + num3 + num4 + num5 + num6 + num7 + num8 + num9 ;
 
   document.getElementById("bttn").disabled = true;
+  
   // document.getElementById('p1').innerHTML = disp2 + "plus"
+  
 }
 
 function clearee(){
@@ -82,4 +84,4 @@ function equal(){
 
 
 }
-// fghbthjtr8oiu
+// fghbthjtr8oiuliygu

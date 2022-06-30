@@ -1,8 +1,8 @@
 const name = 'sss'
 try{
-  name = 'eee'
+  nam = 'eee'
 }
 catch(err){
 console.log(err);
 }
-console.log(name);
+console.log(nam);
