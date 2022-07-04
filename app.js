@@ -84,4 +84,4 @@ function equal(){
 
 
 }
-// 1
+// 12
