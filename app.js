@@ -85,3 +85,4 @@ function equal(){
 
 }
 // 1234
+// 1
