@@ -182,5 +182,4 @@ function clearee(){
  
 }
 
-// 123hhfgjhjhhhh
-//434tjhtjhtjyjhgjj
+// 1
