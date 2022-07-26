@@ -6,5 +6,5 @@ console.log(p);
 // 1234547
 // 235466
 // 32657
-// 12
+// 123
 // open project open project open project
