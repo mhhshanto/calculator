@@ -181,6 +181,6 @@ function clearee(){
   document.getElementById("display").innerText = "";
  
 }
-//a
+//aw
 // 1234567
 // 2245df4dd
